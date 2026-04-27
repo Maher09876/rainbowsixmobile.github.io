@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rainbow Six Mobile</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!--navbar-->
+  <nav>
+    <div class="logo">
+      <img src="https://static.wixstatic.com/media/8b63e2_d96bf19060f24ec7b776ff3129f370d8~mv2.png" alt="R6M Logo" style="height: 36px; width: auto; display: block;" />
+    </div>
+    <ul id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="operators.html">Operators</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+  </nav>
+
+  <!---->
+  <section class="hero" style="background-image: url('https://static.wixstatic.com/media/8b63e2_ac4949581f644d9f8afeacc424b7c68e~mv2.webp'); background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;">
+    <div style="position: absolute; inset: 0; background: linear-gradient(to right, rgba(6,12,24,0.85) 40%, rgba(6,12,24,0.2) 100%);"></div>
+    <div class="hero-text" style="position: relative; z-index: 1;">
+      <p class="eyebrow">Tom Clancy's</p>
+      <h1>Rainbow Six<br><span>Mobile</span></h1>
+      <p class="hero-sub">5v5 tactical combat. Real operators. Destructible environments. Built from scratch for mobile.</p>
+      <a href="https://www.ubisoft.com/en-gb/game/rainbow-six/mobile" target="_blank" class="btn">Download Free</a>
+    </div>
+  </section>
+
+  <!--about-->
+  <section class="about">
+    <div class="section-head">
+      <h2>About The Game</h2>
+      <span class="rule"></span>
+    </div>
+    <div class="about-body">
+      <div class="about-text">
+        <p>Rainbow Six Mobile is a free-to-play tactical first-person shooter developed and published by Ubisoft, designed from the ground up for iOS and Android. This is not a simple port of Rainbow Six Siege — every system, every control layout, every piece of the game was rethought and rebuilt specifically to work on a mobile device. Ubisoft spent years developing it to make sure the experience felt complete and competitive, not like a watered-down version of the PC title.</p>
+        <p>The game is built around 5v5 tactical rounds where one team attacks and the other defends. Attackers are given a preparation phase to send in drones, scout the building, find the objective and plan their entry. Defenders use the same time to reinforce walls, place gadgets, barricade doors and decide who is roaming and who is anchoring near the site. Once the action phase begins, every second counts. Rounds are short but extremely intense.</p>
+        <p>What makes Rainbow Six different from other shooters is the level of destruction built into every map. Walls are not permanent. Most surfaces can be blown open, breached, or shot through depending on the operator and gadget being used. A reinforced wall can stop a sledgehammer but not a thermite charge. Floors can be collapsed from above. Ceilings can be breached from below. Learning which surfaces can be destroyed and how to use that knowledge to your advantage is one of the deepest parts of the game.</p>
+        <p>Operators are the other thing that sets this game apart. Each one belongs to a real-world counter-terrorism unit — SAS, FBI SWAT, GIGN, GSG 9, Spetsnaz — and carries a unique gadget or ability. No two operators play the same. Ash fires a breaching round from a distance to destroy defender gadgets before the team pushes. Smoke holds down a doorway with his remote gas canisters, detonating them the moment attackers try to rush. Thermite plants an exothermic charge on a reinforced wall and blows a hole that no other attacker can create. Every operator changes how the round is played, and learning each one takes time.</p>
+        <p>The game launched globally on February 23, 2026 after a series of regional soft launches and beta phases. It features multiple maps including Bank, Border, Clubhouse and Oregon — all reimagined for mobile play. Ranked mode lets you climb from Bronze all the way up to Champion. With regular seasonal updates and a growing operator roster, there is always something new to learn.</p>
+      </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features">
+    <div class="section-head">
+      <h2>Core Features</h2>
+      <span class="rule"></span>
+    </div>
+    <div class="feat-grid">
+      <div class="feat-card">
+        <h3>Destructible Environments</h3>
+        <p>Walls, floors and ceilings can all be breached. Every surface is a potential entry point or a sight line waiting to happen. Smart players use destruction to control space, not just to get through walls.</p>
+      </div>
+      <div class="feat-card">
+        <h3>Unique Operator Abilities</h3>
+        <p>Every operator has exactly one special gadget that no one else has. Mastering your operator and knowing when to use their ability is what separates good players from great ones.</p>
+      </div>
+      <div class="feat-card">
+        <h3>Tactical 5v5 Rounds</h3>
+        <p>No respawns. Short rounds. Every decision matters. Whether you are droning out the site, reinforcing walls or calling out enemy positions, everything your team does in prep phase pays off when the round starts.</p>
+      </div>
+      <div class="feat-card">
+        <h3>Ranked Mode</h3>
+        <p>Bronze to Champion. Ranked rewards communication, map knowledge and consistent execution. Climb the ladder, earn seasonal rewards and prove you belong at the top.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Rainbow Six Mobile Fan Site — Not affiliated with Ubisoft &copy; 2024</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
